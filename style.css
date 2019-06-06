@@ -1,3 +1,171 @@
-h1 {
-  color: red;
+body {
+
+
+background: #D66D75;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+
+font-family: arial;
+text-align: center;
 }
+
+.navbar {
+  background: white;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  color: black;
+  font-size: 18px;
+  font-family: arial;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.link {
+  color: black;
+
+  }
+
+.logo {
+  width: 130px;
+  height: 100px;
+}
+
+
+.desk {
+  background: white;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: : center;
+  justify-content: space-around;
+}
+
+.deskphoto {
+  width: 190px;
+  height: 200px;
+}
+
+.desktitle {
+  color: black;
+}
+
+.deskp {
+  font-size: 16px;
+}
+
+h1 {
+  color: #b31e6f;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 24px;
+  font-family: arial;
+}
+
+h3 {
+  text-align: left;
+}
+
+ul {
+  font-size: 24px;
+  text-align: left;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.color-black {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color:white;
+  background:black;
+}
+
+.btn:hover {
+  background: pink;
+}
+
+.cadre {
+  background: white;
+  border: 5px solid black;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.avatar {
+ width: 300px;
+ height: 300px;
+ object-fit: cover;
+ border-radius: 50%;
+ box-shadow: 5px 5px 10px grey;
+}
+
+.box-black {
+  background: white;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-red {
+  background: pink;
+  height: 200px;
+  width: 200px;
+}
+
+.box-yellow {
+  background: white;
+  height: 200px;
+  width: 200px;
+}
+
+.color-yellow{
+  color: yellow;
+  font-size: 45px;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
